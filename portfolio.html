@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta
+      property="og:image"
+      content="https://abaddon-it.github.io/splash.png"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ABADDON-X</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <section id="splash">
+      <div>
+        <img src="./splash.png" alt="" />
+      </div>
+    </section>
+    <section id="pnl">
+      <section id="banner">
+        <video src="./bn3.mp4" loop autoplay muted></video>
+      </section>
+      <section id="caption">
+        <section id="navbar">
+          <a href="./" target="_self" class="logo"
+            ><img src="./navbar.png" alt=""
+          /></a>
+          <div class="tabs">
+            <a href="./" target="_self">HOME</a>
+            <a href="./service.html" target="_self">SERVICE</a>
+            <a href="./portfolio.html" target="_self" class="active"
+              >PORTFOLIO</a
+            >
+            <a href="./about.html" target="_self">ABOUT</a>
+            <a class="menu" onclick="opm(1)"><i class="fas fa-bars"></i></a>
+          </div>
+        </section>
+        <section id="rows">
+          <div>
+            <h5>My Portfolio Of Projects</h5>
+            <p>Beneath a masterpieces crafted by the hand of the website developer maestro.</p>
+          </div>
+          <div class="scr">
+            <div class="row">
+              <img src="./garuda.png" alt="" />
+              <h6>GARUDA AMERTA INDONESIA</h6>
+              <p>Company Profile</p>
+              <p>HTML5, CSS3, JAVASCRIPT, PHP, SQL</p>
+              <a href="https://garudaamerta.com">VIEW PROJECT</a>
+            </div>
+            <div class="row">
+              <img src="./dodicctv.png" alt="" />
+              <h6>DODICCTV SUKABUMI</h6>
+              <p>Company Profile</p>
+              <p>HTML5, CSS3, JAVASCRIPT</p>
+              <a href="https://abaddon-x.github.io/dodicctv">VIEW PROJECT</a>
+            </div>
+            <div class="row">
+              <img src="./salwa.png" alt="" />
+              <h6>SALWA PORTFOLIO</h6>
+              <p>Personal Portfolio</p>
+              <p>HTML5, CSS3, JAVASCRIPT</p>
+              <a href="https://abaddon-x.github.io/salwaportfolio"
+                >VIEW PROJECT</a
+              >
+            </div>
+          </div>
+        </section>
+      </section>
+      <section id="sidenav">
+        <div class="nav animate__animated animate__faster animate__fadeInLeft">
+          <img src="./navbar.png" alt="" />
+          <div class="head">
+            <a class="label"><i class="fas fa-bars"></i>NAVIGATION MENU</a>
+          </div>
+          <div class="body">
+            <a href="./" target="_self"><i class="fas fa-home"></i>HOME</a>
+            <a href="./service.html" target="_self"
+              ><i class="fas fa-briefcase"></i>SERVICE</a
+            >
+            <a href="./portfolio.html" target="_self"
+              ><i class="fas fa-clone"></i>PORTFOLIO</a
+            >
+            <a href="./about.html" target="_self"
+              ><i class="fas fa-user"></i>ABOUT</a
+            >
+          </div>
+        </div>
+        <div class="blank" onclick="opm(0)"></div>
+      </section>
+    </section>
+  </body>
+</html>
+
+<script>
+  setTimeout(() => {
+    document.getElementById("splash").style = "display: none !important;";
+    document.getElementById("pnl").style = "display: block !important;";
+  }, 1500);
+
+  function opm(nums) {
+    if (nums == 0) {
+      document.getElementById("sidenav").style = "display: none;";
+    } else if (nums == 1) {
+      document.getElementById("sidenav").style = "display: block;";
+    }
+  }
+</script>
+
+<script
+  src="https://kit.fontawesome.com/yourcode.js"
+  crossorigin="anonymous"
+></script>
