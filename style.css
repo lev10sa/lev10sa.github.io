@@ -481,7 +481,7 @@ p {
   }
 
   #sidenav a i {
-    margin-right: 15px;
+    margin: auto 15px;
   }
 
   #navbar {
