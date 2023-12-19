@@ -481,7 +481,7 @@ p {
   }
 
   #sidenav a i {
-    margin-right: 15px;
+    margin: auto 15px;
   }
 
   #navbar {
@@ -563,7 +563,7 @@ p {
 
   #banner {
     height: 200px;
-    border-width: 0px 5px 5px 0px;
+    border-width: 0px 5px 0px 0px;
     border-style: inset;
     margin-bottom: 1rem;
   }
