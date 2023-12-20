@@ -364,7 +364,9 @@ p {
     height: auto;
     display: block;
     overflow: hidden;
-    text-align: center;
+    margin: auto;
+    z-index: 997;
+    position: relative;
   }
 
   .pic img {
@@ -372,6 +374,8 @@ p {
     height: auto;
     border-radius: 50%;
     border: 3px solid #000;
+    display: block;
+    z-index: 997;
   }
 
   .capt {
@@ -394,7 +398,7 @@ p {
     background: #000;
     color: #fff;
     padding: 10px 16px;
-    margin: 15px 5px;
+    margin: 25px 5px;
     display: inline-block;
   }
 
@@ -552,7 +556,6 @@ p {
     width: 100%;
     display: block;
     overflow: hidden;
-    height: auto;
     margin-top: 50px;
   }
 
