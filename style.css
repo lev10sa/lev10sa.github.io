@@ -572,6 +572,8 @@ p {
     border-width: 0px 0px 1px 0px;
     border-style: inset;
     margin-bottom: 1rem;
+    position: absolute;
+    top: 0;
   }
 
   #banner video {
@@ -581,6 +583,8 @@ p {
     overflow: hidden;
     object-fit: cover;
     object-position: top;
+    position: absolute;
+    top: 0;
   }
 
   .scr h6 {
