@@ -367,6 +367,7 @@ p {
     margin: auto;
     z-index: 997;
     position: relative;
+    style="margin: 7rem auto auto auto;"
   }
 
   .pic img {
