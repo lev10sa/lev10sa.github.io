@@ -359,7 +359,7 @@ p {
     text-align: center;
   }
 
-  .pic {
+  .abt .pic {
     width: 100%;
     height: auto;
     display: block;
@@ -370,7 +370,7 @@ p {
     margin: 7rem auto auto auto;
   }
 
-  .pic img {
+  .abt .pic img {
     width: 160px;
     height: auto;
     border-radius: 50%;
@@ -379,7 +379,7 @@ p {
     z-index: 997;
   }
 
-  .capt {
+  .abt .capt {
     width: 100%;
     height: auto;
     display: block;
@@ -568,6 +568,13 @@ p {
   }
 
   #banner {
+    height: 200px;
+    border-width: 0px 0px 1px 0px;
+    border-style: inset;
+    margin-bottom: 1rem;
+  }
+
+  .abt #banner {
     height: 200px;
     border-width: 0px 0px 1px 0px;
     border-style: inset;
