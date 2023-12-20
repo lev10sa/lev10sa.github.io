@@ -83,8 +83,8 @@ p {
 }
 
 #splash div img {
-  width: 350px;
-  height: 350px;
+  width: 250px;
+  height: 250px;
   border: 1px hidden;
   object-position: center;
   object-fit: cover;
