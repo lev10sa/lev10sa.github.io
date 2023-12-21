@@ -196,14 +196,14 @@ p {
 
   #banner {
     background: #000;
-    width: 30%;
+    width: 20%;
     display: inline-block;
     overflow: hidden;
     height: 100vh;
   }
 
   #caption {
-    width: 69%;
+    width: 79%;
     display: inline-block;
     overflow: hidden;
     height: 100vh;
