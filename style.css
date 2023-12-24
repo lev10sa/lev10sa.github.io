@@ -5,7 +5,7 @@
 }
 
 a {
-  font-size: 12px;
+  font-size: 12pt;
   cursor: pointer;
   text-decoration: none;
 }
@@ -21,37 +21,31 @@ h6 {
 }
 
 h1 {
-  font-size: 67px;
-  line-height: 110%;
+  font-size: 3.5em;
 }
 
 h2 {
-  font-size: 50px;
-  line-height: 110%;
+  font-size: 3em;
 }
 
 h3 {
-  font-size: 37px;
-  line-height: 110%;
+  font-size: 2.5em;
 }
 
 h4 {
-  font-size: 28px;
-  line-height: 110%;
+  font-size: 2em;
 }
 
 h5 {
-  font-size: 21px;
-  line-height: 110%;
+  font-size: 1.5em;
 }
 
 h6 {
-  font-size: 16px;
-  line-height: 110%;
+  font-size: 1em;
 }
 
 p {
-  font-size: 12px;
+  font-size: 1em;
 }
 
 .shdw {
@@ -175,7 +169,6 @@ p {
 
   #navbar .tabs a {
     margin: 15px 25px;
-    font-size: 11pt;
     display: inline-block;
     color: #666;
     vertical-align: middle;
@@ -183,7 +176,6 @@ p {
 
   #navbar .tabs a.active {
     color: #000;
-    font-size: 14pt;
     font-weight: bold;
   }
 
@@ -255,7 +247,6 @@ p {
     border-radius: 30px;
     margin: 1.5rem 15px auto auto;
     display: inline-block;
-    font-size: 12pt;
   }
 
   #paragraph i {
@@ -313,7 +304,6 @@ p {
   #rows p,
   #rows a {
     margin: 0.5rem auto;
-    font-size: 10pt;
   }
 
   #rows .row span {
@@ -387,7 +377,6 @@ p {
   .capt a.blk {
     display: block;
     margin: 2rem auto auto auto;
-    font-size: 10pt;
     font-weight: bold;
     padding: 15px 15px;
   }
@@ -482,7 +471,6 @@ p {
     height: auto;
     padding: 15px 10px;
     border-bottom: 1px solid #000;
-    font-size: 11pt;
   }
 
   #sidenav a i {
@@ -533,7 +521,6 @@ p {
 
   #navbar .tabs a {
     margin: 10px 10px;
-    font-size: 11pt;
     display: none;
     color: #666;
     vertical-align: middle;
@@ -541,7 +528,6 @@ p {
 
   #navbar .tabs a {
     color: #000;
-    font-size: 14pt;
     font-weight: bold;
   }
 
@@ -631,7 +617,6 @@ p {
     background: #000;
     border-radius: 30px;
     margin: 1.5rem auto;
-    font-size: 10pt;
     font-weight: bold;
     text-align: center;
   }
@@ -673,7 +658,6 @@ p {
 
   #rows .row p {
     margin: 0.5rem auto;
-    font-size: 12pt;
   }
 
   #rows .row span {
@@ -687,7 +671,6 @@ p {
     background: #000;
     color: #fff;
     border-radius: 30px;
-    font-size: 10pt;
     font-weight: bold;
     padding: 15px 15px;
     margin: 1.5rem auto auto auto;
