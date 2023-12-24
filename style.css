@@ -21,31 +21,31 @@ h6 {
 }
 
 h1 {
-  font-size: 67pt;
+  font-size: 3.5em;
 }
 
 h2 {
-  font-size: 50pt;
+  font-size: 3em;
 }
 
 h3 {
-  font-size: 37pt;
+  font-size: 2.5em;
 }
 
 h4 {
-  font-size: 28pt;
+  font-size: 2em;
 }
 
 h5 {
-  font-size: 21pt;
+  font-size: 1.5em;
 }
 
 h6 {
-  font-size: 16pt;
+  font-size: 1em;
 }
 
 p {
-  font-size: 12pt;
+  font-size: 1em;
 }
 
 .shdw {
