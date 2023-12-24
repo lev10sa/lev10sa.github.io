@@ -205,7 +205,8 @@ p {
   #caption {
     width: 74%;
     display: inline-block;
-    overflow: hidden;
+    overflow-x: hidden;
+    overflow-y: scroll;
     height: 100vh;
   }
 
