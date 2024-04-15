@@ -275,11 +275,9 @@ p {
     width: 100%;
     height: auto;
     display: block;
-    overflow-x: scroll;
-    overflow-y: hidden;
+    overflow: hidden;
     margin: 1rem auto;
     text-align: center;
-    white-space: nowrap;
   }
 
   .scr h6 {
@@ -288,7 +286,7 @@ p {
   }
 
   #rows {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: block;
     overflow: hidden;
@@ -298,14 +296,14 @@ p {
   }
 
   #rows .row {
-    width: 42%;
+    width: 95%;
     height: auto;
     overflow: hidden;
-    display: inline-block;
+    display: block;
     clear: both;
-    margin: 1.5rem 0.85rem;
+    margin: 1.5rem auto;
     padding: 15px 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     border: 1px solid #000;
   }
 
