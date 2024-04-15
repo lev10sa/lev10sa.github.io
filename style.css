@@ -161,7 +161,7 @@ p {
   }
 
   #navbar .logo {
-    width: 125px;
+    width: 120px;
     height: auto;
     display: block;
     overflow: hidden;
@@ -289,7 +289,7 @@ p {
   }
 
   #rows {
-    width: 90%;
+    width: 95%;
     height: auto;
     display: block;
     overflow: hidden;
@@ -305,8 +305,8 @@ p {
     clear: both;
     padding: 15px 15px;
     border-radius: 10px;
-    border: 1px solid #000;
-    margin: 1rem 10px;
+    border: 1px hidden;
+    margin: 1rem 12px;
   }
 
   #rows p,
