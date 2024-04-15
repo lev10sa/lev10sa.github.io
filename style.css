@@ -293,7 +293,7 @@ p {
   }
 
   #rows .row {
-    width: 45%;
+    width: 44%;
     height: auto;
     overflow: hidden;
     display: inline-block;
@@ -301,7 +301,7 @@ p {
     padding: 15px 15px;
     border-radius: 10px;
     border: 1px solid #000;
-    margin: 0.5rem 10px 0.5rem 10px;
+    margin: 0.5rem 5px 0.5rem 5px;
   }
 
   #rows p,
