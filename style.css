@@ -276,7 +276,6 @@ p {
     height: auto;
     display: block;
     overflow: hidden;
-    text-align: center;
   }
 
   .scr h6 {
@@ -304,6 +303,14 @@ p {
     padding: 15px 15px;
     border-radius: 10px;
     border: 1px solid #000;
+  }
+
+  #rows .row:nth-child(odd) {
+    margin-right: 5px;
+  }
+
+  #rows .row:nth-child(even) {
+    margin-left: 5px;
   }
 
   #rows p,
