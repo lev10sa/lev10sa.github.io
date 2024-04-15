@@ -295,10 +295,10 @@ p {
   }
 
   #rows .row {
-    width: 90%;
+    width: 45%;
     height: auto;
     overflow: hidden;
-    display: block;
+    display: inline-block;
     clear: both;
     margin: 1rem auto;
     padding: 15px 15px;
