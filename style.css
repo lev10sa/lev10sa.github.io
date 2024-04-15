@@ -276,17 +276,16 @@ p {
     height: auto;
     display: block;
     overflow: hidden;
-    margin: 1rem auto;
     text-align: center;
   }
 
   .scr h6 {
     display: block;
-    margin: 1.5rem auto auto auto !important;
+    margin: 1rem auto auto auto !important;
   }
 
   #rows {
-    width: 100%;
+    width: 90%;
     height: auto;
     display: block;
     overflow: hidden;
@@ -296,12 +295,12 @@ p {
   }
 
   #rows .row {
-    width: 95%;
+    width: 90%;
     height: auto;
     overflow: hidden;
     display: block;
     clear: both;
-    margin: 1.5rem auto;
+    margin: 1rem auto;
     padding: 15px 15px;
     border-radius: 10px;
     border: 1px solid #000;
