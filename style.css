@@ -39,31 +39,31 @@ h6 {
 }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 4em;
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 3.5em;
 }
 
 h3 {
-  font-size: 2.5em;
+  font-size: 3em;
 }
 
 h4 {
-  font-size: 2em;
+  font-size: 2.5em;
 }
 
 h5 {
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 h6 {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 p {
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 .shdw {
@@ -141,7 +141,7 @@ p {
   .capt a {
     width: auto;
     height: auto;
-    border-radius: 30px;
+    border-radius: 10px;
     background: #000;
     color: #fff;
     padding: 15px 20px;
@@ -267,7 +267,7 @@ p {
     padding: 15px 35px;
     color: #fff;
     background: #000;
-    border-radius: 30px;
+    border-radius: 10px;
     margin: 1.5rem 15px auto auto;
     display: inline-block;
   }
@@ -294,7 +294,7 @@ p {
     display: block;
     overflow: hidden;
     margin: 1rem auto;
-    padding: 0.5rem 0px;
+    padding: 1rem 0px;
   }
 
   #rows .row {
@@ -334,7 +334,7 @@ p {
     display: block;
     background: #000;
     color: #fff;
-    border-radius: 30px;
+    border-radius: 10px;
     padding: 10px 15px;
     margin: 1rem auto auto auto;
   }
@@ -402,7 +402,7 @@ p {
   .capt a {
     width: auto;
     height: auto;
-    border-radius: 30px;
+    border-radius: 10px;
     background: #000;
     color: #fff;
     padding: 10px 16px;
@@ -633,8 +633,8 @@ p {
     padding: 15px 25px;
     color: #fff;
     background: #000;
-    border-radius: 30px;
-    margin: 1.5rem auto;
+    border-radius: 10px;
+    margin-top: 3rem;
     font-weight: bold;
     text-align: center;
   }
@@ -688,7 +688,7 @@ p {
     display: block;
     background: #000;
     color: #fff;
-    border-radius: 30px;
+    border-radius: 10px;
     font-weight: bold;
     padding: 15px 15px;
     margin: 1.5rem auto auto auto;
