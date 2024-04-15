@@ -231,6 +231,9 @@ p {
     object-fit: cover;
     object-position: top;
     filter: opacity(70%);
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 
   #paragraph {
@@ -303,7 +306,7 @@ p {
     padding: 15px 15px;
     border-radius: 10px;
     border: 1px solid #000;
-    margin: 0.5rem 5px 0.5rem 5px;
+    margin: 0.5rem 10px 0.5rem 10px;
   }
 
   #rows p,
