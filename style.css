@@ -161,7 +161,7 @@ p {
   }
 
   #navbar .logo {
-    width: 100px;
+    width: 115px;
     height: auto;
     display: block;
     overflow: hidden;
@@ -289,7 +289,6 @@ p {
     display: block;
     overflow: hidden;
     margin: 0.5rem auto;
-    text-align: center;
     padding: 0.5rem 0px;
   }
 
