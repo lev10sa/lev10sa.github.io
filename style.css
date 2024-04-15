@@ -211,6 +211,7 @@ p {
     display: inline-block;
     overflow: hidden;
     height: 100vh;
+    vertical-align: top;
   }
 
   #caption {
@@ -219,6 +220,7 @@ p {
     overflow: hidden;
     min-height: 100vh;
     height: auto;
+    vertical-align: top;
   }
 
   video {
