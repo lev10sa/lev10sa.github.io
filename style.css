@@ -293,7 +293,7 @@ p {
     height: auto;
     display: block;
     overflow: hidden;
-    margin: 0.5rem auto;
+    margin: 1rem auto;
     padding: 0.5rem 0px;
   }
 
@@ -306,7 +306,7 @@ p {
     padding: 15px 15px;
     border-radius: 10px;
     border: 1px hidden;
-    margin: 1rem 12px;
+    margin: 1rem 15px;
   }
 
   #rows p,
