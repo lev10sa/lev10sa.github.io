@@ -214,7 +214,7 @@ p {
   }
 
   #caption {
-    width: 74%;
+    width: 73%;
     display: inline-block;
     overflow: hidden;
     min-height: 100vh;
@@ -293,7 +293,7 @@ p {
   }
 
   #rows .row {
-    width: 44%;
+    width: 43%;
     height: auto;
     overflow: hidden;
     display: inline-block;
