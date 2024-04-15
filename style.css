@@ -212,6 +212,9 @@ p {
     overflow: hidden;
     height: 100vh;
     vertical-align: top;
+    position: fixed;
+    top: 0;
+    left: 0;
   }
 
   #caption {
@@ -231,9 +234,6 @@ p {
     object-fit: cover;
     object-position: top;
     filter: opacity(70%);
-    position: fixed;
-    top: 0;
-    left: 0;
   }
 
   #paragraph {
