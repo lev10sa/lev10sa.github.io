@@ -391,6 +391,7 @@ p {
     padding: 15px 15px;
     background: #000;
     color: #fff;
+    border-radius: 30px;
   }
 
   .capt a {
