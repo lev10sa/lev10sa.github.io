@@ -397,8 +397,8 @@ p {
   .capt a {
     width: auto;
     height: auto;
-    color: #fff;
-    background: #000;
+    color: #000;
+    background: #fff;
     padding: 10px 16px;
     margin: 25px 5px;
     display: inline-block;
@@ -687,11 +687,5 @@ p {
 
   #rows a i {
     margin-right: 15px;
-  }
-  
-  .hitp {
-    color: #000 !important;
-    background: #fff !important;
-    border: 1px hidden !important;
   }
 }
