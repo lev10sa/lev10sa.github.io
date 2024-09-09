@@ -242,7 +242,6 @@ p {
     width: 72%;
     display: inline-block;
     overflow: hidden;
-    min-height: auto;
     height: auto;
     vertical-align: top;
   }
