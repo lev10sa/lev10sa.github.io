@@ -102,7 +102,13 @@ p {
   display: block;
   overflow: hidden;
   text-align: center;
-  padding: 10px 10px;
+  background: #111;
+  color: #fff;
+}
+
+#footers p {
+  text-align: center;
+  margin: 1rem auto;
 }
 
 @media only screen and (min-width: 601px) {
