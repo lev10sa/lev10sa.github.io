@@ -427,6 +427,17 @@ p {
     margin: 2.5rem auto auto auto;
   }
 
+  .capt a {
+    width: auto;
+    height: auto;
+    color: #000;
+    background: #fff;
+    padding: 10px 5px;
+    margin: 25px 8px;
+    display: inline-block;
+    font-size: 16pt;
+  }
+
   .capt .blk {
     display: block;
     margin: 2rem auto auto auto;
@@ -435,17 +446,7 @@ p {
     background: #000;
     color: #fff;
     border-radius: 30px;
-  }
-
-  .capt a {
-    width: auto;
-    height: auto;
-    color: #000;
-    background: #fff;
-    padding: 10px 5px;
-    margin: 25px 5px;
-    display: inline-block;
-    font-size: 16pt;
+    font-size: 12pt;
   }
 
   #sidenav {
