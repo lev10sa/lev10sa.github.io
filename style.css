@@ -5,6 +5,12 @@
   scroll-behavior: smooth;
 }
 
+.capt a i {
+  border: 1px solid #000;
+  padding: 1px 1px;
+  border-radius: 50%;
+}
+
 ::-webkit-scrollbar {
   width: 6px;
   height: 6px;
