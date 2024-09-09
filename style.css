@@ -105,11 +105,12 @@ p {
     background: #111;
     color: #fff;
     text-align: left;
+    margin-top: 1rem;
   }
 
   #fdrs p {
     text-align: left;
-    margin: 1rem 25px;
+    margin: 1rem 30px;
   }
 
   #fig {
