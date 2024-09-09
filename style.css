@@ -446,7 +446,7 @@ p {
     background: #000;
     color: #fff;
     border-radius: 30px;
-    font-size: 12pt;
+    font-size: 12pt !important;
   }
 
   #sidenav {
