@@ -242,7 +242,7 @@ p {
     width: 72%;
     display: inline-block;
     overflow: hidden;
-    min-height: 100vh;
+    min-height: auto;
     height: auto;
     vertical-align: top;
   }
@@ -262,7 +262,7 @@ p {
     height: auto;
     display: block;
     overflow: hidden;
-    margin: 4rem auto;
+    margin: 6rem auto;
   }
 
   #paragraph div {
