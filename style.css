@@ -96,6 +96,15 @@ p {
   object-fit: cover;
 }
 
+#footers {
+  width: 100%;
+  height: auto;
+  display: block;
+  overflow: hidden;
+  text-align: center;
+  padding: 10px 10px;
+}
+
 @media only screen and (min-width: 601px) {
   #fig {
     width: 90%;
@@ -141,8 +150,8 @@ p {
     margin: 1rem 5px auto auto;
     display: inline-block;
   }
-  
-    .capt .blk {
+
+  .capt .blk {
     width: auto;
     height: auto;
     display: inline-block;
