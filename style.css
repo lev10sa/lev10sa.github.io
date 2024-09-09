@@ -394,6 +394,7 @@ p {
   #fdrs p {
     text-align: center;
     margin: 1rem auto;
+    font-size: 11pt;
   }
 
   #fig {
