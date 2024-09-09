@@ -96,23 +96,25 @@ p {
   object-fit: cover;
 }
 
-#footers {
-  width: 100%;
-  height: auto;
-  display: block;
-  overflow: hidden;
-  text-align: center;
-  background: #111;
-  color: #fff;
-  margin-top: 4rem;
-}
-
-#footers p {
-  text-align: center;
-  margin: 1rem auto;
-}
-
 @media only screen and (min-width: 601px) {
+  #fdrs {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    background: #111;
+    color: #fff;
+    text-align: left;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  #fdrs p {
+    text-align: left;
+    margin: 1rem 15px;
+  }
+
   #fig {
     width: 90%;
     height: auto;
@@ -375,6 +377,24 @@ p {
 }
 
 @media only screen and (max-width: 600px) {
+  #fdrs {
+    width: 100%;
+    height: auto;
+    display: block;
+    overflow: hidden;
+    text-align: center;
+    background: #111;
+    color: #fff;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+  }
+
+  #fdrs p {
+    text-align: center;
+    margin: 1rem auto;
+  }
+
   #fig {
     width: 85%;
     height: auto;
